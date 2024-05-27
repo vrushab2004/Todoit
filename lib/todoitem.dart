@@ -41,7 +41,7 @@ const Todoitem ({Key? key, required this.todo,required this.onToDochanged,requir
             shape: RoundedRectangleBorder(borderRadius:BorderRadius.circular(20) ),
             tileColor: Colors.transparent,
             leading: Icon(todo.isDone? Icons.check_box : Icons.check_box_outline_blank,color: Theme.of(context).colorScheme.primary,),
-            title: Text(todo.todoText!,style: GoogleFonts.aBeeZee(fontWeight: FontWeight.bold,fontSize: 22,color:Theme.of(context).colorScheme.secondary,decoration:todo.isDone? TextDecoration.lineThrough : null,decorationColor: Colors.white),),
+            title: Text(todo.todoText!,style: GoogleFonts.aBeeZee(fontWeight: FontWeight.bold,fontSize: 22,color:Theme.of(context).colorScheme.secondary,decoration:todo.isDone? TextDecoration.lineThrough : null,decorationColor:Theme.of(context).colorScheme.secondary),),
           ),
         ),
         Container(
