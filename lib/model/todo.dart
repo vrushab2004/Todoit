@@ -1,3 +1,6 @@
+import 'package:isar/isar.dart';
+
+
 class ToDo {
   String? id;
   String? todoText;
@@ -14,7 +17,7 @@ class ToDo {
   static List<ToDo> todoList() {
     return [
 
-ToDo(id: '4', todoText: 'D laundry'),
+
     ];
   }
 }
