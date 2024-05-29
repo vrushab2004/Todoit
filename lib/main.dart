@@ -5,6 +5,7 @@ import 'package:todoit/home.dart';
 import 'package:todoit/model/theme_provider.dart';
 import 'package:provider/provider.dart';
 
+
 void main() {
   runApp(ChangeNotifierProvider(
     create:(context)=>ThemeProvider(),
